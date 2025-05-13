@@ -16,8 +16,9 @@ body {
   text-align: center;
   margin: 50px auto 0;
   width: 90%;
-  max-width: 700px;
-  background-color: rgba(160, 229, 231, 0.5);
+  max-width: 600px;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.733);
   border-radius: 20px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   padding: 20px 15px;
@@ -35,8 +36,9 @@ body {
 .SearchEngine input {
   width: 70%;
   height: 40px;
-  border: none;
-  border-radius: 5px; /* Updated */
+  border: 1px solid rgb(48, 48, 48);
+  margin-top: 20px;
+  border-radius: 9px; /* Updated */
   padding: 2px 15px;
   font-size: 16px;
   outline: none;
@@ -55,8 +57,10 @@ body {
   height: 44px; /* Updated */
   border: none;
   border-radius: 9%; /* Updated */
-  background-color: #00a6ff; /* Updated */
-  color: #fff;
+  margin-top: 20px;
+  background-color: #ffd500; /* Updated */
+  border: 1px solid rgb(48, 48, 48);
+  color: #f9f9f9;
   font-size: 20px;
   outline: none;
   cursor: pointer;
@@ -152,6 +156,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 10px;
+  width: 50px;
   margin: 10px;
   border-radius: 10px;
   background-color: #fff;
@@ -159,7 +164,7 @@ body {
 }
 
 .day:hover {
-  background-color: aliceblue;
+  background-color: rgb(252, 206, 0);
 }
 
 .day-name {
