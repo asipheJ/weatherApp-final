@@ -5,9 +5,9 @@ export default function Credit() {
     <div class="credit">
     <p>
       Coded by
-      <a href="https://www.shecodes.io/graduates/73033-chaimae-lamirine"
+      <a href="https://weather-app-final-three.vercel.app/"
         > Hashe Asiphe</a
-      > <a href="https://github.com/shemmee/React-Weather-App">All rights reserved</a> 2024
+      > <a href="https://github.com/asipheJ/weatherApp-final">All rights reserved</a> 2024
     </p>
   </div>
   );
